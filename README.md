@@ -19,3 +19,4 @@ Ouput can be either ``console`` or ``web`` (it's web by default if you don't put
 ### Potential improvements 
  - Right now we need to refresh the webpage to have an update on the information, we could implement AJAX request every minute to prevent having to do that and still getting the updated data for example. Or we could try implementing a websocket for example.
  - We could introduce the adress of the velib station in addition of the informations so people would know where to go if they are not familiar with Splio's HQ surronding (by using Google Maps APIs for example)
+ - We could add the possibility for the user to choose the radius around Splio's HQ

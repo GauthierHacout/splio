@@ -7,12 +7,12 @@ import (
 
 /* These struct are used to represent the data we will get from Velib API in Go */
 type Response struct {
-	Records []Record	`json:"records"`
+	Records 	[]Record	`json:"records"`
 }
 
 type Record struct {
-	Timestamp 		string 		`json:"record_timestamp"`
-	Fields			Field 		`json:"fields"`
+	Timestamp 	string 		`json:"record_timestamp"`
+	Fields		Field 		`json:"fields"`
 }
 
 type Field struct {
