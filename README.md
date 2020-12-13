@@ -3,6 +3,8 @@
 The goal of this project is to be able to get real time informations about velib station around Splio's HQ. For this we use opendata API.
 https://opendata.paris.fr/explore/dataset/velib-disponibilite-en-temps-reel/information/
 
+GO version used : 1.12.1
+
 **There is two version of this project :**
 
 **1-** Every minute the informations of every stations in a 500m radius are outputed in the console
